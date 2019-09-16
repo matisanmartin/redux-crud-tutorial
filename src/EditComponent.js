@@ -19,8 +19,8 @@ class EditComponent extends Component {
                 <form onSubmit={this.handleEdit}>
                     <input
                         required
-                       type="text"
-                       ref={ (input) => this.getTitle = input }
+                        type="text"
+                        ref={ (input) => this.getTitle = input }
                         defaultValue={this.props.post.title}
                         placeholder="Enter Post title"/>
                     <br/>
